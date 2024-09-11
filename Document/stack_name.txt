@@ -1,1 +1,2 @@
-sample stack
+deploy/aws_lambda.yml|aws_lambda
+ 
