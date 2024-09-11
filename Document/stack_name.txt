@@ -1,2 +1,2 @@
-deploy/aws_lambda.yml|aws_lambda
+deploy/aws-lambda.yml|aws-lambda
  
