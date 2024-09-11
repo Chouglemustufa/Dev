@@ -24,4 +24,3 @@ Resources:
       Action: lambda:InvokeFunction
       FunctionName: !Ref MyFunction
       Principal: events.amazonaws.com
-     
