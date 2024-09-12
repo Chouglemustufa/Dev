@@ -4,7 +4,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       Description: This lambda function is a sample function that prints a message.
-      FunctionName: sample_lambda_function
+      FunctionName: sample_lambda_function_v1
       Role: arn:aws:iam::552468754852:role/Lambdadeployrole
       Code:
         ZipFile: |
