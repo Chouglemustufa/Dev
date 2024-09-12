@@ -5,7 +5,7 @@ Resources:
     Properties:
       Description: This lambda function is a sample function that prints a message.
       FunctionName: sample_lambda_function
-      Role: arn:aws:iam::552468754852:user/lambda_user
+      Role: arn:aws:iam::552468754852:role/Lambdadeployrole
       Code:
         ZipFile: |
           def lambda_handler(event, context):
@@ -14,6 +14,7 @@ Resources:
                   'statusCode': 200,
                   'body': 'This is a sample Lambda'
               }
+​
       Handler: index.lambda_handler
       Runtime: python3.12
 ​
