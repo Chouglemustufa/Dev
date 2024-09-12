@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - deploy/** # Trigger when files in deploy folder change
-
 jobs:
   build:
     runs-on: ubuntu-latest
