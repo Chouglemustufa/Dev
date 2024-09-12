@@ -13,8 +13,7 @@ Resources:
               return {
                   'statusCode': 200,
                   'body': 'This is a sample Lambda'
-              }
-              
+              }          
       Handler: index.lambda_handler
       Runtime: python3.12
 ​
