@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - .github/**
-      - document/**
+    paths:
+      - deploy/** # Trigger when files in deploy folder change
 
 jobs:
   build:
